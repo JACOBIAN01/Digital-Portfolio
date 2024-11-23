@@ -1,8 +1,12 @@
 function App() {
   return (
-    <div className="text-center">
-      <h1 className="text-4xl font-bold text-blue-600">Hello, Tailwind CSS!</h1>
-    </div>
+    <nav>
+      <ul>
+        <li>About Me</li>
+        <li>Experience</li>
+        <li>Skills</li>
+      </ul>
+    </nav>
   );
 }
 
