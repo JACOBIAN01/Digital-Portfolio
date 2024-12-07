@@ -10,7 +10,7 @@ function Hero(){
               Portfolio Under Development
             </h1>
             <p className="text-xl sm:text-2xl mb-6 font-semibold ">
-              I'm working hard to bring you a complete portfolio experience.
+              I'm working hard to bring you a complete Portfolio experience.
               Stay tuned!
             </p>
           </div>
