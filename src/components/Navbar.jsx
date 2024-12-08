@@ -37,6 +37,7 @@ function Navbar() {
             >
               Contact Me
             </a>
+            
           </div>
         </div>
       </nav>
