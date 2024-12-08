@@ -11,10 +11,16 @@ function Navbar() {
               href="#about"
               className="hover:text-blue-300 transition duration-200"
             >
-              About
+              Home
             </a>
             <a
               href="#experience"
+              className="hover:text-blue-300 transition duration-300"
+            >
+              About Me
+            </a>
+            <a
+              href="#skills"
               className="hover:text-blue-300 transition duration-300"
             >
               Experience
@@ -23,7 +29,13 @@ function Navbar() {
               href="#skills"
               className="hover:text-blue-300 transition duration-300"
             >
-              Skills
+              Projects
+            </a>
+            <a
+              href="#skills"
+              className="hover:text-blue-300 transition duration-300"
+            >
+              Contact Me
             </a>
           </div>
         </div>
