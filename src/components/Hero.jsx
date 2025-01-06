@@ -1,20 +1,32 @@
 import React from "react";
 
-
 function Hero(){
     return (
       <>
-        <section className="bg-gradient-to-r from-purple-700 to-pink-500 text-white h-screen flex flex-col justify-center items-center text-center">
-          <div className="container mx-auto">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-4 animate-pulse">
-              Portfolio Under Development
-            </h1>
-            <p className="text-xl sm:text-2xl mb-6 font-semibold ">
-              I'm working hard to bring you a complete Portfolio experience.
-              Stay tuned!
+        <div className="bg-gradient-to-b from-gray-900 via-black to-gray-800 text-white py-20">
+          <div className="container mx-auto text-center">
+            <h1 className="text-5xl font-bold mb-4">Subhadeep Ghorai</h1>
+            <p className="text-xl mb-6">
+              Certified STEM Educator | ECE Graduate | MERN Stack Developer
             </p>
           </div>
-        </section>
+          <div className="flex justify-center space-x-4">
+            <a
+              href="https://github.com/JACOBIAN01"
+              target="_blank"
+              className="px-6 py-4 bg-black rounded-md hover:bg-gray-800"
+            >
+              Github
+            </a>
+            <a
+              href="https://www.linkedin.com/in/subhadeep-ghorai/"
+              target="_blank"
+              className="px-6 py-4 bg-blue-950 rounded-md hover:bg-blue-600"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
       </>
     );
 }
