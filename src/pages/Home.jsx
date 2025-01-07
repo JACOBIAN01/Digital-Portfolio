@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import ProjectPage from "../components/Projects";
 import UnderDev from "../components/UnderDev";
 import '../index.css'
 
@@ -8,6 +9,7 @@ function Home() {
     <div>
       <Navbar />
       <Hero/>
+      <ProjectPage/>
       <UnderDev/>
     </div>
   );
